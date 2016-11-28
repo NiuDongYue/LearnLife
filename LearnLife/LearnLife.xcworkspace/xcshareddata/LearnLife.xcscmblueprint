@@ -1,46 +1,23 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "12E8513301FA9AA53877B7760CF4D22F118181AE",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FDB64C726CD1CA8C28D20F02ABF078D61F0505FB",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "277b9a16-5baa-4660-899d-ea59af25e45a++4586" : {
 
-    }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "12E8513301FA9AA53877B7760CF4D22F118181AE" : 0,
-    "F3B45497815B8BB4B701CF7F74ADAFF3DA73C3A3" : 0,
-    "277b9a16-5baa-4660-899d-ea59af25e45a++4586" : 9223372036854775807,
     "FDB64C726CD1CA8C28D20F02ABF078D61F0505FB" : 0,
-    "2CAE48925ADBE964C18EF1ECB71E1461F4CEC9EE" : 0
+    "F3B45497815B8BB4B701CF7F74ADAFF3DA73C3A3" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A84010CF-58A9-4297-8275-68D56E41947E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "12E8513301FA9AA53877B7760CF4D22F118181AE" : "LearnLife\/",
-    "F3B45497815B8BB4B701CF7F74ADAFF3DA73C3A3" : "LearnLife\/LearnLife.xcodeproj\/",
-    "277b9a16-5baa-4660-899d-ea59af25e45a++4586" : "..\/..\/Bocai\/Bocai",
-    "FDB64C726CD1CA8C28D20F02ABF078D61F0505FB" : "..",
-    "2CAE48925ADBE964C18EF1ECB71E1461F4CEC9EE" : ""
+    "FDB64C726CD1CA8C28D20F02ABF078D61F0505FB" : "ZhengZ\/",
+    "F3B45497815B8BB4B701CF7F74ADAFF3DA73C3A3" : "ZhengZ\/LearnLife\/LearnLife.xcodeproj\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "LearnLife",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LearnLife.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LearnLife\/LearnLife.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NiuDongYue\/ZZLearnLife.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12E8513301FA9AA53877B7760CF4D22F118181AE"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/218.244.141.121\/bocai",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "277b9a16-5baa-4660-899d-ea59af25e45a++4586"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NiuDongYue\/ZZLearnLife.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2CAE48925ADBE964C18EF1ECB71E1461F4CEC9EE"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NiuDongYue\/LearnLife.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F3B45497815B8BB4B701CF7F74ADAFF3DA73C3A3"
     },
