@@ -62,9 +62,9 @@ PODS:
     - REFormattedNumberField (~> 1.1.5)
     - REValidation (~> 0.1.4)
   - REValidation (0.1.4)
-  - SDWebImage (3.8.1):
-    - SDWebImage/Core (= 3.8.1)
-  - SDWebImage/Core (3.8.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
   - TMCache (2.1.0)
   - UIActivityIndicator-for-SDWebImage (1.2):
     - SDWebImage (~> 3.7)
@@ -74,7 +74,7 @@ PODS:
   - XAspect/Core (1.0.5):
     - XAspect/Macros
   - XAspect/Macros (1.0.5)
-  - ZFDownload (1.0.0):
+  - ZFDownload (1.0.1):
     - ASIHTTPRequest
 
 DEPENDENCIES:
@@ -118,12 +118,12 @@ SPEC CHECKSUMS:
   REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
   RETableViewManager: 0f24d796c42c0890d38c79cc9aeb3871e186726e
   REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
-  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
   UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
   XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
-  ZFDownload: daa984c729f81f63a5af4eb2b3e2c5d7bdc18ef5
+  ZFDownload: a5d90cd34d9427d98ff710587a2ad035803a07a2
 
-PODFILE CHECKSUM: 08f425122fe8019aa881bbd16ccf992827bee4e7
+PODFILE CHECKSUM: db97780811de826d81fc0ea11319850b4dcf6527
 
 COCOAPODS: 1.0.1

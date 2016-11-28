@@ -1,7 +1,7 @@
 
 /**
  *  @brief  BaseView 自动从nib加载
- *  @author hj
+ *  @author Zz
  *  date    2016.8.8
  */
 
