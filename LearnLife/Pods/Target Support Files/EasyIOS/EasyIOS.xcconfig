@@ -1,0 +1,13 @@
+CLANG_CXX_LANGUAGE_STANDARD = gnu++0x
+CLANG_CXX_LIBRARY = libstdc++
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/EasyIOS
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/EasyIOS" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/ASIHTTPRequest" "${PODS_ROOT}/Headers/Public/EasyIOS" "${PODS_ROOT}/Headers/Public/FDFullscreenPopGesture" "${PODS_ROOT}/Headers/Public/FLKAutoLayout" "${PODS_ROOT}/Headers/Public/FontIcon" "${PODS_ROOT}/Headers/Public/GCDObjC" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/MJExtension" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/MojoDatabase" "${PODS_ROOT}/Headers/Public/REFormattedNumberField" "${PODS_ROOT}/Headers/Public/RETableViewManager" "${PODS_ROOT}/Headers/Public/REValidation" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/TMCache" "${PODS_ROOT}/Headers/Public/UIActivityIndicator-for-SDWebImage" "${PODS_ROOT}/Headers/Public/XAspect" "${PODS_ROOT}/Headers/Public/ZFDownload" "${PODS_ROOT}/Headers/Public/pop" $(SDKROOT)/usr/include/libz, $(SDKROOT)/usr/include/libxml2
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/FLKAutoLayout" "$PODS_CONFIGURATION_BUILD_DIR/FontIcon" "$PODS_CONFIGURATION_BUILD_DIR/GCDObjC" "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD" "$PODS_CONFIGURATION_BUILD_DIR/MojoDatabase" "$PODS_CONFIGURATION_BUILD_DIR/ReactiveCocoa" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" "$PODS_CONFIGURATION_BUILD_DIR/TMCache" "$PODS_CONFIGURATION_BUILD_DIR/UIActivityIndicator-for-SDWebImage"
+OTHER_LDFLAGS = -l"sqlite3" -l"stdc++" -l"z.1.1.3" -framework "CoreFoundation" -framework "CoreGraphics" -framework "Foundation" -framework "Security" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

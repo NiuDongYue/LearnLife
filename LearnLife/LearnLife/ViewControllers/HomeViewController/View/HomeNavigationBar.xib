@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeNavigationBar">
+            <connections>
+                <outlet property="arrowImageView" destination="lFx-sT-uSF" id="uBo-yB-ON3"/>
+                <outlet property="cityLabel" destination="cv1-YD-KmE" id="2UF-iP-XVz"/>
+                <outlet property="messageImageView" destination="96Y-Cp-e1P" id="sbd-ba-v5L"/>
+                <outlet property="scanImageView" destination="HYJ-XZ-aJg" id="JuK-dY-YNv"/>
+                <outlet property="searchImageView" destination="uzW-4G-5a2" id="4A9-7D-3B1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" image="mainCellCai" translatesAutoresizingMaskIntoConstraints="NO" id="lFx-sT-uSF">
+                    <rect key="frame" x="36" y="10" width="20" height="20"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" image="mainCellCai" translatesAutoresizingMaskIntoConstraints="NO" id="HYJ-XZ-aJg">
+                    <rect key="frame" x="264" y="10" width="20" height="20"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" image="mainCellCai" translatesAutoresizingMaskIntoConstraints="NO" id="96Y-Cp-e1P">
+                    <rect key="frame" x="292" y="10" width="20" height="20"/>
+                </imageView>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="....." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cv1-YD-KmE">
+                    <rect key="frame" x="8" y="9" width="23.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainCellCai" translatesAutoresizingMaskIntoConstraints="NO" id="uzW-4G-5a2">
+                    <rect key="frame" x="66" y="10" width="188.5" height="20"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="96Y-Cp-e1P" firstAttribute="leading" secondItem="HYJ-XZ-aJg" secondAttribute="trailing" constant="8" id="3PM-hy-gmR"/>
+                <constraint firstAttribute="trailing" secondItem="96Y-Cp-e1P" secondAttribute="trailing" constant="8" id="Gb2-gL-diW"/>
+                <constraint firstItem="uzW-4G-5a2" firstAttribute="leading" secondItem="lFx-sT-uSF" secondAttribute="trailing" constant="10" id="Hgc-9W-l2V"/>
+                <constraint firstItem="cv1-YD-KmE" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Itf-Kt-l2w"/>
+                <constraint firstItem="96Y-Cp-e1P" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="TB6-oq-e1h"/>
+                <constraint firstItem="HYJ-XZ-aJg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="YpV-H6-KGo"/>
+                <constraint firstItem="uzW-4G-5a2" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="f4j-3K-Kvc"/>
+                <constraint firstItem="lFx-sT-uSF" firstAttribute="leading" secondItem="cv1-YD-KmE" secondAttribute="trailing" constant="5" id="oWJ-88-brB"/>
+                <constraint firstItem="cv1-YD-KmE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="q9T-OG-KZb"/>
+                <constraint firstItem="HYJ-XZ-aJg" firstAttribute="leading" secondItem="uzW-4G-5a2" secondAttribute="trailing" constant="10" id="sNQ-h2-EuC"/>
+                <constraint firstItem="lFx-sT-uSF" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="tbq-eI-Eqm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="265" y="106"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mainCellCai" width="20" height="20"/>
+    </resources>
+</document>

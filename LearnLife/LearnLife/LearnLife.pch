@@ -1,0 +1,27 @@
+
+#ifndef LearnLife_pch
+#define LearnLife_pch
+
+#import "UIColor+Hex.h"
+#import "RETableViewManager.h"
+#import <pop/POP.h>
+#import "UIImageView+Extent.h"
+#import <MJExtension/MJExtension.h>
+#import <Masonry/Masonry.h>
+#import "ReactiveCocoa.h"
+#import <pop/POP.h>
+#import <EasyIOS/Easy.h>
+#import <EasyIOS/Scene.h>
+
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+#define ZZFont(font) [UIFont systemFontOfSize:(font)]
+
+#define WEAK  @weakify(self);
+
+#define STRONG  @strongify(self);
+
+#endif /* LearnLife_pch */

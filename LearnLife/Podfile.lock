@@ -1,0 +1,129 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - EasyIOS (2.2.3):
+    - EasyIOS/Easy (= 2.2.3)
+  - EasyIOS/Easy (2.2.3):
+    - AFNetworking
+    - FLKAutoLayout (= 0.1.1)
+    - FontIcon
+    - GCDObjC
+    - MBProgressHUD
+    - MojoDatabase
+    - ReactiveCocoa (= 2.4.4)
+    - TMCache
+    - UIActivityIndicator-for-SDWebImage
+  - FDFullscreenPopGesture (1.1)
+  - FLKAutoLayout (0.1.1)
+  - FontIcon (1.0)
+  - GCDObjC (0.3.0)
+  - Masonry (1.0.0)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.0)
+  - MojoDatabase (1.4)
+  - pop (1.0.9)
+  - Reachability (3.2)
+  - ReactiveCocoa (2.4.4):
+    - ReactiveCocoa/UI (= 2.4.4)
+  - ReactiveCocoa/Core (2.4.4):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.4)
+  - ReactiveCocoa/UI (2.4.4):
+    - ReactiveCocoa/Core
+  - REFormattedNumberField (1.1.6)
+  - RETableViewManager (1.7):
+    - REFormattedNumberField (~> 1.1.5)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - TMCache (2.1.0)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+  - ZFDownload (1.0.0):
+    - ASIHTTPRequest
+
+DEPENDENCIES:
+  - EasyIOS (from `https://github.com/zhuchaowe/EasyIOS.git`, commit `900be0c90c5e24e715293ce8dff04b35bbae3e74`)
+  - FDFullscreenPopGesture (~> 1.1)
+  - Masonry (= 1.0.0)
+  - MJExtension (= 3.0.10)
+  - MJRefresh (= 3.1.0)
+  - pop (= 1.0.9)
+  - RETableViewManager (= 1.7)
+  - SDWebImage (~> 3.8)
+  - XAspect (= 1.0.5)
+  - ZFDownload (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  EasyIOS:
+    :commit: 900be0c90c5e24e715293ce8dff04b35bbae3e74
+    :git: https://github.com/zhuchaowe/EasyIOS.git
+
+CHECKOUT OPTIONS:
+  EasyIOS:
+    :commit: 900be0c90c5e24e715293ce8dff04b35bbae3e74
+    :git: https://github.com/zhuchaowe/EasyIOS.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  EasyIOS: 9a2d5312e12da0aa272bffcb50ebd0b7f296632a
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FLKAutoLayout: 95b12c5cd9652100235140b68652f063f7437851
+  FontIcon: 24a07541244227b865e689217efd7d049ba7cc43
+  GCDObjC: 0c31898f34d8605196ac0343c65b496609d7dee6
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MojoDatabase: 02e3eb98510b69033ab537156969d1f76b4f369e
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: cbe3b5eae464aa72a348a7323996b171728a9e71
+  REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
+  RETableViewManager: 0f24d796c42c0890d38c79cc9aeb3871e186726e
+  REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+  ZFDownload: daa984c729f81f63a5af4eb2b3e2c5d7bdc18ef5
+
+PODFILE CHECKSUM: 08f425122fe8019aa881bbd16ccf992827bee4e7
+
+COCOAPODS: 1.0.1
